@@ -18,7 +18,6 @@ def sort_descending(a, b, c):#def keyword is used to define a function, it is pl
     return numbers
 
 # Taking input from the user
-a = int(input("Enter the first integer: "))
 b = int(input("Enter the second integer: "))
 c = int(input("Enter the third integer: "))
 
