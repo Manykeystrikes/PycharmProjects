@@ -22,7 +22,7 @@ SyntaxError: invalid syntax
 print("The price of tea- ", tea, "The price of coffee= ", coffee, sep="!")
 The price of tea- !3.0!The price of coffee= !5.5
 print("The price of tea = ", tea, "The price of coffee= ", coffee, sep="!", end=".")
-The price of tea = !3.0!The price of coffee= !5.5.>>>
+The price of tea = !3.0!The price of coffee= !5.5.
 
 print)"The price of tea= ", tea, "The price of coffeee= ", coffee, sep="!", end=".\n")
   File "<stdin>", line 1
@@ -30,3 +30,31 @@ print)"The price of tea= ", tea, "The price of coffeee= ", coffee, sep="!", end=
 
 print("The price of tea= ", tea, "The price of coffee= ", coffee, sep="!", end=".\n")
 The price of tea= !3.0!The price of coffee= !5.5.
+
+ print("The price of tea= ", tea, "The price of coffee= ", coffee, sep="!", end=".\n")
+The price of tea= !3.0!The price of coffee= !5.5.
+ price  = 5.5
+ "The price of coffee = " + price
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: can only concatenate str (not "float") to str
+ "The price of coffee= " + str(price)
+'The price of coffee= 5.5'
+
+ print(52, end=',')
+52,
+ print(52, end=',\n')
+52,
+ print(52, sep='!", end=',\n')
+  File "<stdin>", line 1
+    print(52, sep='!", end=',\n')
+                              ^
+SyntaxError: unexpected character after line continuation character
+ print(52, sep="!", end=',\n')
+52,
+ print(52, 36, sep="!", end=',\n')
+52!36,
+ print(52, 36, 45, sep=":", end=',\n')
+52:36:45,
+
+

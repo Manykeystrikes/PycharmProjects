@@ -19,7 +19,7 @@ while mark >= 0.0:
    mark = float(input("Enter a mark:"))
 print("The number of marks: ", n)
 if n > 0:
-   print("The average mark is: ", total / n)
+   print(f"The average mark is=  {round( total / n, 2)}")
    print("The lowest mark is: ", lowest)
    print("The highest mark is: ", highest)
    
