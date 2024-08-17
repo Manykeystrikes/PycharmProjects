@@ -29,9 +29,6 @@ elif marks >= 65:
 elif marks >= 50:
    grade = '4'
 #nything less than 50 gets the grade of F. Write a program
-elif marks <=49.9:
-   grade = 'F'
-
-
+else: grade = 'F'
 # print grade
-print(grade)
+print("grade = ", grade)
