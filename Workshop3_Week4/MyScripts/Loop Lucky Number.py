@@ -7,6 +7,9 @@ num = int(input("Guess the number:"))
 if(num == 7):
    print("Congratulations! You Win!")
    print("Luck number 7!")
+elif (num <7):
+   print("not the magic number, to small")
+
 else:
    print("Wong number.")
    print("Thank you for playing! Better luck next time!")
