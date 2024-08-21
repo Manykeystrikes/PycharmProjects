@@ -10,14 +10,14 @@ print("The price of coffee = ", coffee)
 #The price of coffee =  5.5
 print("The price of coffee= ", 5 * coffee)
 
-The price of coffee=  27.5
+The_price_of_coffee=  27.5
 tea = 3.0
 print("The price of tea = ", tea, "The price of coffee= ", coffee)
-The price of tea =  3.0 The price of coffee=  5.5
+The_price_of_tea =  3.0 The_price_of_coffee=  5.5
 print("The price of tea- ", tea, "The price of coffee= ", coffee, sep"!")
   File "<stdin>", line 1
     print("The price of tea- ", tea, "The price of coffee= ", coffee, sep"!")
-                                                                         ^^^
+
 SyntaxError: invalid syntax
 print("The price of tea- ", tea, "The price of coffee= ", coffee, sep="!")
 The price of tea- !3.0!The price of coffee= !5.5
