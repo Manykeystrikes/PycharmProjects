@@ -20,3 +20,4 @@ if hours <= 37:
     wage = 36.25
 elif hours > 37
     wage = 36.25 * 1.5
+6
