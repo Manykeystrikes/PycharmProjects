@@ -10,13 +10,14 @@ Write a new program that instead of using a negative number
 to end input, asks how many marks there are first, then reads
 them using a for loop.'''
 
- # calc avg needed so nedd mark and total
+ # calc avg needed so need mark and total
 n = int(input("How many marks: ",))
 if n > 0: # n = int(input("How many marks: ",)) - (if) lets the loop continue only if (n) is > 0
    mark = float(input("Enter a mark: ", ))
    highest = mark
    lowest = mark
    total = mark
+   while mark <= 0.0:
    for i in range (n - 1): # does a loop a required number of times
       mark = float(input("Enter a mark: ",))
       total += mark

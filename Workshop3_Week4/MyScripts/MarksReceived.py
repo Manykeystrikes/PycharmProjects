@@ -20,6 +20,6 @@ while mark >= 0.0:
 print("The number of marks: ", n)
 if n > 0:
    print(f"The average mark is=  {round( total / n, 2)}")
-   print("The lowest mark is: ", lowest)
-   print("The highest mark is: ", highest)
+   print("The lowest mark is= ", lowest)
+   print("The highest mark is= ", highest)
    
