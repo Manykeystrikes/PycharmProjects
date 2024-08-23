@@ -10,11 +10,12 @@ mark = float(input("Enter a mark:"))
 highest = mark
 lowest = mark
 while mark >= 0.0:
+
    n += 1
    total += mark
    if mark > highest:
       highest = mark
-   if mark < lowest:
+   elif mark < lowest:
       lowest = mark
    mark = float(input("Enter a mark:"))
 print("The number of marks: ", n)
