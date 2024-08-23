@@ -31,5 +31,3 @@ else: bonus = 0
 
 total_salary = wage + cars_sold + bonus
 print("Your total salary is ", total_salary)
-
-

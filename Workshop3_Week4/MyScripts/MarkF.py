@@ -18,7 +18,7 @@ if n > 0: # n = int(input("How many marks: ",)) - (if) lets the loop continue on
    lowest = mark
    total = mark
    while mark <= 0.0:
-   for i in range (n - 1): # does a loop a required number of times
+    for i in range (n - 1): # does a loop a required number of times
       mark = float(input("Enter a mark: ",))
       total += mark
       if mark > highest:
