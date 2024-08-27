@@ -34,6 +34,7 @@ if n > 0: # n = int(input("How many marks: ",)) - (if) lets the loop continue on
 
 
 
+
 # n = 0
 # total = 0.0
 # mark = float(input("Enter a mark: ",))

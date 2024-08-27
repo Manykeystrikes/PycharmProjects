@@ -17,18 +17,19 @@ marks = float(input("Enter marks: "))
 #transfer marks to a grade
 #Marks 85 or above receive the grade of 7
 if marks >= 85:
-   grade = '7'
+   print('grade 7')
 # Marks less then 85 but are 75 or above receive the grade of 6
 # elif marks < 85 and marks >=: #75 <= marks < 85
 elif marks >= 75:
-   grade = '6'
+  print('grade 6')
 #Marks less than 75 but that are 65 or above receive the grade of 4.
 elif marks >= 65:
-   grade = '5'
+   print('grade 5')
 #Marks less than 65 but that are 50 or above receive the grade of 4.
 elif marks >= 50:
-   grade = '4'
+   print('grade 4')
 #nything less than 50 gets the grade of F. Write a program
-else: grade = 'F'
-# print grade
-print("grade = ", grade)
+else: marks = 'F'
+print('grade F')
+print(marks)
+marks = float(input("Enter marks: "))
