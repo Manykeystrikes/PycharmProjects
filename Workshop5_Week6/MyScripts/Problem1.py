@@ -1,0 +1,15 @@
+'''Problem: In mathematics, the Fibonacci sequence is defined such that each Fibonacci number is the
+sum of the two preceding ones, starting from 0 and 1. That is,
+F1 = 0, F2 = 1, F3 = 1, F4 = 2, ..., Fn = F(n-1) + F(n-2).
+Write a program that given an input n, outputs the first n Fibonacci numbers. The format of output is
+that at most 4 numbers can be displayed in a row.
+Example run:
+Enter a positive number: 6
+0 1 1 2
+3 5
+Enter a positive number: 10
+0 1 1 2
+3 5 8 13
+21 34
+Testing: Test your code for the above example input.
+'''
