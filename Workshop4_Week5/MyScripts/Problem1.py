@@ -20,11 +20,11 @@ n = int(input("Enter a positive number: "))
 result = []
 for i in range(n):
     (a, b) = 0, 1
-    while a < n:
-     result.append(a)
-     a, b = b, a + b
+   # while a < n:
+    result.append(a)
+    a, b = b, a + b
      #if n < 0:
-print("Please enter a positive number")
+   print("Please enter a positive number")
 print(a, end=" ")
 
    # n = int(input("Enter a positive number: "))
