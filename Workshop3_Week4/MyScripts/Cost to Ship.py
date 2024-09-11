@@ -43,7 +43,7 @@ elif 1000 >= distance < 2000:
 elif 2000 >= distance < 3000:
     discount = 0.35
 if distance > 3000:
-   discount= 0.5
+    discount= 0.5
 
 #calculte the shipping cost
 cost = weight * distance * basePrice * (1- discount)
